@@ -4,8 +4,8 @@
   title: cfp.level.basic
   schedule:
     - time:        "10:00 - 10:50"
-      title:       introduction.title
-      description: introduction.description
+      title:       Intro a BDD
+      description: En esta charla se va a hacer una introducción a un proceso de desarrollo de aplicaciones basado en el comportamiento, sus diferencias con técnicas más conocidas como el TDD y como podemos utilizar herramientas como phpspec y Behat para automatizar nuestro tests.
       speaker:     iambrosi
 
 - room_name: Sala 2
