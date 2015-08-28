@@ -21,13 +21,13 @@
                         </div>
                     {% endif %}
 
-                    {% if talk.link_deck is not empty %}
+                    {% if talk.link_deck is defined and talk.link_deck is not empty %}
                         <div>
                             <i class="fa fa-file-powerpoint-o"></i> <a href="{{ talk.link_deck }}" target="_blank">{{ "talk_slides"|trans }}</a>
                         </div>
                     {% endif %}
 
-                    {% if talk.link_code is not empty %}
+                    {% if talk.link_code is defined and talk.link_code is not empty %}
                         <div>
                             <i class="fa fa-file-code-o"></i> <a href="{{ talk.link_code }}" target="_blank">{{ "talk_code"|trans }}</a>
                         </div>
